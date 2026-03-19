@@ -123,20 +123,35 @@ optical-flow-pong/
 
 # 🛠️ Installation
 
-Prérequis :
+## Prérequis
 - Python 3.11+
 - Webcam
+- uv (gestionnaire de packages)
 
-Installation :
+Installation de uv (si nécessaire) :
+curl -Ls https://astral.sh/uv/install.sh | sh
+
+---
+
+## Installation du projet
 
 git clone https://github.com/mtthgd/optical-flow-pong.git  
 cd optical-flow-pong  
 
-python -m venv .venv  
-source .venv/bin/activate  
+---
 
-pip install -U pip  
-pip install mediapipe numpy opencv-python pygame  
+## Installation des dépendances
+
+uv sync
+
+---
+
+## Activation de l’environnement
+
+source .venv/bin/activate
+
+(Sous Windows)
+.venv\Scripts\activate
 
 ---
 
@@ -144,11 +159,11 @@ pip install mediapipe numpy opencv-python pygame
 
 Pour lancer le jeu :
 
-python -m src.game.pong  (appuyer sur la touche ESC pour quitter)
+```uv run python -m src.game.pong```  (appuyer sur la touche ESC pour quitter)
 
 Pour lancer la visualisation du tracking du doigt + optical flow : 
 
-python -m src.vision.finger_flow_tracker.py (appuyer sur la touche Q pour quitter)
+```uv run python -m src.vision.finger_flow_tracker.py``` (appuyer sur la touche Q pour quitter)
 
 ---
 
