@@ -170,7 +170,6 @@ Pour lancer la visualisation du tracking du doigt + optical flow :
 - Utiliser l’index pour contrôler la raquette  
 - Bouger rapidement pour déclencher un smash  
 
----
 
 # ⚙️ Paramètres importants
 
@@ -185,7 +184,7 @@ Dans le jeu :
 - MAX_BALL_SPEED
 - SPIN_FACTOR
 
----
+
 
 # ⚠️ Limitations
 
@@ -195,7 +194,6 @@ Dans le jeu :
 
 
 --- 
-
 Projet réalisé dans le cadre de l'UE COMPUTER VISION @ IMT ATLANTIQUE 
 
 
