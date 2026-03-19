@@ -108,17 +108,18 @@ Cela permet de limiter le calcul de l’optical flow à une zone d’intérêt (
 
 # 🏗️ Architecture
 
-optical-flow-pong/  
-├── README.md  
-├── hand_landmarker.task  
-├── pyproject.toml  
-└── src/  
-  ├── main.py  
-  ├── game/  
-  │  └── pong.py  
-  └── vision/  
-    └── finger_flow_tracker.py  
-
+```text
+optical-flow-pong/
+├── README.md
+├── hand_landmarker.task
+├── pyproject.toml
+└── src/
+    ├── main.py
+    ├── game/
+    │   └── pong.py
+    └── vision/
+        └── finger_flow_tracker.py
+```
 
 
 # 🛠️ Installation
