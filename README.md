@@ -6,7 +6,7 @@ Le système repose sur deux briques principales :
 - MediaPipe pour la détection et le suivi du doigt
 - Optical Flow (Farnebäck) pour estimer le mouvement
 
----
+
 
 # 📌 Objectif
 
@@ -20,14 +20,14 @@ Le pipeline est le suivant :
 5. Conversion en signal de contrôle
 6. Interaction avec le jeu Pong
 
----
+
 
 # 🎥 Démonstration
 
 
 Section qui sera complétée ultérieurement 
 
----
+
 
 # ⚙️ Fonctionnalités
 
@@ -41,7 +41,7 @@ Section qui sera complétée ultérieurement
 - Affichage FPS, vitesse
 - Visualisation du champ de flow
 
----
+
 
 # 🔄 Pipeline
 
@@ -63,7 +63,7 @@ Lissage
 ↓  
 Contrôle du jeu  
 
----
+
 
 # 🧠 Méthodes utilisées
 
@@ -91,7 +91,7 @@ avec :
 
 Utilisé dans ce projet pour produire un signal de contrôle fluide.
 
----
+
 
 # ✋ MediaPipe
 
@@ -104,7 +104,7 @@ Cela permet de limiter le calcul de l’optical flow à une zone d’intérêt (
 - améliore les performances
 - évite les artefacts liés au fond
 
----
+
 
 # 🏗️ Architecture
 
@@ -119,7 +119,7 @@ optical-flow-pong/
   └── vision/  
     └── finger_flow_tracker.py  
 
----
+
 
 # 🛠️ Installation
 
@@ -129,31 +129,25 @@ optical-flow-pong/
 - uv (gestionnaire de packages)
 
 Installation de uv (si nécessaire) :
-curl -Ls https://astral.sh/uv/install.sh | sh
+```curl -Ls https://astral.sh/uv/install.sh | sh```
 
----
 
 ## Installation du projet
 
-git clone https://github.com/mtthgd/optical-flow-pong.git  
-cd optical-flow-pong  
+```git clone https://github.com/mtthgd/optical-flow-pong.git  
+cd optical-flow-pong```
 
----
+
 
 ## Installation des dépendances
 
-uv sync
+```uv sync```
 
----
 
 ## Activation de l’environnement
 
-source .venv/bin/activate
+```source .venv/bin/activate```
 
-(Sous Windows)
-.venv\Scripts\activate
-
----
 
 # ▶️ Lancement
 
@@ -165,7 +159,7 @@ Pour lancer la visualisation du tracking du doigt + optical flow :
 
 ```uv run python -m src.vision.finger_flow_tracker.py``` (appuyer sur la touche Q pour quitter)
 
----
+
 
 # 🎮 Utilisation
 
