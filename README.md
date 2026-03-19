@@ -134,8 +134,10 @@ Installation de uv (si nécessaire) :
 
 ## Installation du projet
 
-```git clone https://github.com/mtthgd/optical-flow-pong.git```
-```cd optical-flow-pong ``` 
+```
+git clone https://github.com/mtthgd/optical-flow-pong.git
+cd optical-flow-pong
+``` 
 
 
 
